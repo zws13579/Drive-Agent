@@ -1,0 +1,28 @@
+# Environment & Secrets
+.env
+.env.*
+*.env
+*.token
+*.key
+*.pem
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Runtime Cache & Temp (Agent generated)
+.cache/
+manifests/
+tmp/
+temp/
+*.log
+
+# OS Junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+*:Zone.Identifier
+*Zone.Identifier*
